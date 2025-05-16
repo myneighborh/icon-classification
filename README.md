@@ -1,6 +1,12 @@
 # Image Classification Hackathon: Predicting Icon Types from 32x32 Grayscale Images
 
-This project involves developing a deep learning model to predict icon types based on 32x32 grayscale images. Using PyTorch, a Convolutional Neural Network (CNN) model was designed and trained, and the model's performance was evaluated using K-Fold cross-validation, achieving a high accuracy of 0.992.
+This project involves developing a deep learning model to predict icon types based on 32x32 grayscale images. Using PyTorch, a Convolutional Neural Network (CNN) model was designed and trained, and the model's performance was evaluated using K-Fold cross-validation.
+## Competition Results
+
+| Leaderboard          | Score (Accuracy) | Rank        |
+|:----------:|:-------------:|-------------|
+| Public  | 0.992      | 43 / 476    |
+| Private  | 0.972      | 50 / 459  |
 
 ## Model Design
 - After experimenting with **EfficientNet** and **ResNet**, the **CNN model** was chosen for optimization based on performance and training speed.
