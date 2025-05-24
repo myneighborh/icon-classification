@@ -20,9 +20,5 @@ This project involves developing a deep learning model to predict icon types bas
 - **K-Fold Cross Validation**: **Stratified K-Fold** was used for 10-fold repeated training to enhance the model's stability and performance, with the final predictions being aggregated using the hard voting method.
 - **Model Ensemble**: **CNN**, **EfficientNet**, and **ResNet** were experimented with for performance and speed tradeoffs, but the optimized **CNN model** proved to be the most effective.
 - **Handling Confused Classes**: For classes the model struggled with (e.g., airplane and police car), a separate **binary classifier** was trained to recheck predictions for those specific classes, improving accuracy.
-
-## Final Results
-- **Accuracy**: 0.992
-- The optimized CNN model demonstrated high performance and stability, maximizing generalization performance through various augmentation techniques and ensemble strategies.
-
+---
 ![image](https://github.com/user-attachments/assets/a79b42ed-71ac-4d02-85f4-32cd4dfef47a)
